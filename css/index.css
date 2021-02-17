@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.banner604 {
+  position: relative;
+}
+
+.banner604 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 604px;
+  background: url(../images/banner.jpg) no-repeat top center;
+}
+.main{
+  position: relative;
+}
+.c-box{
+  height: 453px;
+  width: 730px;
+  margin: 12px 0 0 220px;
+
+}
+.slider{
+  background-color: pink;
+  height: 100%;
+  width: 100%;
+  /* float: left; */
+  position: relative;
+  overflow: hidden;
+}
+.slider ul {
+  width: 1000%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider ul li{
+  float: left;
+}
+.circle{
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  margin-left: -66px;
+}
+.circle li{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  float: left;
+  background-color: #3e3e3e;
+  margin: 0 2px;
+  text-align: center;
+  line-height: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.circle li.current{
+  background-color: #b61b1f;
+}
+.news{
+  /* background-color: green; */
+  width: 248px;
+  height: 451px;
+  border: 1px solid #e4e4e4;
+  float: right;
+  margin-top: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.arrow-l, .arrow-r{
+  position: absolute;
+  width: 28px;
+  height: 62px;
+  top: 50%;
+  margin-top: -31px;
+  background-color: pink;
+  color: #fff;
+  font: 500 18px/62px "宋体";
+  text-align: center;
+  background: rgba(0, 0, 0, .3);
+}
+.arrow-l{
+  left: 0;
+}
+.arrow-r{
+  right: 0;
+}
+.arrow-l:hover, .arrow-r:hover {
+  background: rgba(0, 0, 0, .4);
+  color: #fff;
+}
+#arr{
+  display: none;
+}
+/* 右侧服务框 */
+
+.jd-news{
+  height: 200px;
+  border-bottom: 1px dashed #e4e4e4;
+}
+.jd-news .dt, .lifeser .dt{
+  height: 43px;
+  border-bottom: 1px dotted #e8e8e7;
+  line-height: 43px;
+}
+.jd-news .dt h3, .lifeser .dt h3{
+  float: left;
+  font: 12px/43px "microsoft yahei";
+  color: #666;
+  padding-left: 15px;
+}
+.jd-news .dt a{
+  float: right;
+  font: 13px/43px "宋体";
+  padding-right: 15px;
+}
+.jd-news .dd ul{
+  padding: 5px 0 0 15px;
+}
+.jd-news .dd li{
+  line-height: 28px;
+}
+.jd-news .dd li span{
+  font-weight: 700;
+  margin-right: 5px;
+}
+.lifeser{
+  height: 251px;
+  overflow: hidden;
+  width: 248px;
+}
+.lifeser .dd{
+  border-top: 1px dotted #e8e8e7;
+  height: 251px;
+  overflow: hidden;
+}
+.lifeser .dd ul{
+  width: 252px;
+}
+.lifeser .dd li{
+  width: 62px;
+  height: 70px;
+  border: 1px solid #e4e4e4;
+  float: left;
+  margin: -1px 0 0 -1px;
+}
+.lifeser li a{
+  display: block;
+  height: 70px;
+  text-align: center;
+  padding-top: 44px;
+  position: relative;
+}
+.lifeser li i{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 12px;
+  left: 18px;
+  background: url(../images/icon_lifeserv.png) no-repeat right top;
+}
+
+
+/* 双十一的活动 */
+.today{
+  position: relative;
+}
+.night{
+  margin: 10px 0 28px 0;
+}
+.night-l{
+  float: left;
+}
+.night-r{
+  width: 1000px;
+  height: 160px;
+  float: right;
+}
+.night-r ul{
+  width: 500%;
+}
+.night-r li{
+  float: left;
+  margin-right: 1px;
+}
